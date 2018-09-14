@@ -1,0 +1,51 @@
+﻿
+@model ExpensesTrackerAplication.Models.Expens
+
+@Html.HiddenFor(a => a.Id)
+
+<h2>Expense - Add</h2>
+<p>Enter the detail for the expense and click "save"</p>
+
+@using (Html.BeginForm("add", "home", FormMethod.Post, new { id = "popupForm" }))
+{
+
+    <div class="form-group">
+        <label></label>
+
+    </div>
+    <div class="form-group">
+        <label>Project ID</label>
+        @Html.TextBoxFor(a => Model.ProyectID, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => Model.ProyectID)
+
+    </div>
+    <div class="form-group">
+
+        <label>Name</label>
+        @Html.TextBoxFor(a => Model.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => Model.Name)
+
+    </div>
+    <div class="form-group">
+        <label>ExpenseDate</label>
+        @Html.TextBoxFor(a => Model.ExpenseDate, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => Model.ExpenseDate)
+
+    </div>
+    <div class="form-group">
+        <label>Amount</label>
+        @Html.TextBoxFor(a => Model.Amount, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => Model.Amount)
+
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        @Html.TextBoxFor(a => Model.Description, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => Model.Description)
+
+    </div>
+
+    <div>
+        <input type="submit" value="Add" />
+    </div>
+}

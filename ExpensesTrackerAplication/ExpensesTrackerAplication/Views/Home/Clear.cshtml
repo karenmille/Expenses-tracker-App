@@ -1,0 +1,14 @@
+﻿@model ExpensesTrackerAplication.Models.Expens
+
+@Html.HiddenFor(a => a.Id)
+
+<h2>Clear</h2>
+
+@using (Html.BeginForm("clear", "home", FormMethod.Post, new { id = "popupForm" }))
+{
+
+    
+    <div>
+        <input type="submit" value="Clear" />
+    </div>
+}
