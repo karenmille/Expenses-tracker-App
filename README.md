@@ -27,8 +27,12 @@ The expense record should be physically deleted from The listing form will initi
 grid. Each line item will have an Edit and Delete link associated with it.the database upon confirmation.
 There are two simple forms – a listing form, and an entry form.
 
+![search 2](https://user-images.githubusercontent.com/29130101/45561535-fdff6f80-b815-11e8-9cfd-9565f5fde22b.PNG)
 
+![delete 2](https://user-images.githubusercontent.com/29130101/45562405-68191400-b818-11e8-994b-f971e14c376b.PNG)
 
+![edit 1](https://user-images.githubusercontent.com/29130101/45562409-6b140480-b818-11e8-94ef-576c89866c5d.PNG)
 
-![](images/filenameDelete (2).PNG)
+![home 2](https://user-images.githubusercontent.com/29130101/45562412-6d765e80-b818-11e8-83ae-02781792217c.PNG)
 
+![search 1](https://user-images.githubusercontent.com/29130101/45562422-6fd8b880-b818-11e8-9bbe-e4f4bafd2b70.PNG)
