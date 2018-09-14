@@ -30,5 +30,5 @@ There are two simple forms – a listing form, and an entry form.
 
 
 
-![](images/filenameDelete.PNG)
+![](images/filenameDelete (2).PNG)
 
