@@ -29,5 +29,5 @@ There are two simple forms – a listing form, and an entry form.
 
 
 ![search 2](https://user-images.githubusercontent.com/29130101/45561535-fdff6f80-b815-11e8-9cfd-9565f5fde22b.PNG)
-![search 2](https://images/Delete (2).PNG)
+![](https://images/Delete (2).PNG)
 
